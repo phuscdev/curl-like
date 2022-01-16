@@ -23,6 +23,7 @@ export default class {
     const response = request(`${this.url}/send-reactions/?post_id=${id}`, {
       method: 'GET',
       headers: {
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36',
         cookie: this.user_cookie
       } 
     })
@@ -48,6 +49,7 @@ export default class {
     const response = request(`${this.api_url}/send-reactions`, {
       method: 'POST',
       headers: {
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36',
         'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
         cookie: this.user_cookie
       },
