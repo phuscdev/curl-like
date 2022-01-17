@@ -1,7 +1,7 @@
 import machineLiker from './src/machineLiker.js';
 
 const main = new machineLiker({
-  cookie: 'machineliker_session=76207f3b5b4e40345b2d30f71d4da555; _ga=GA1.2.203201194.1642321571; _gid=GA1.2.1026187671.1642321571; __gads=ID=aa48d6cf9a99d25a-223ed80ce8cf009f:T=1642321571:S=ALNI_MaPcruIhhp2eLOu6Hp5QAlkM022FA; __cf_bm=ZfoiTAGKD5O4PYsHs4lEe4ACYN8HZMvnlOn2ZH..3KE-1642321575-0-AQAKcL+3dhzu0kgRhvy9c2bv/oFTBSh0nvahn/4kSZHHcygKGr0vdwALcv3+IvrmQKMzssQGTAsT/UR5/WeyxORDyyErxMli2GM6qGUrJTM5jTwZHyVUyc/Z5Iag1PIpAw=='
+  cookie: 'machineliker_session=e4c95b2c46a6e5fc0c805afad2249512; _ga=GA1.2.1833870732.1642389416; _gid=GA1.2.1593031150.1642389417; __gads=ID=fec9a708555d327a-22ba52bff9cf00aa:T=1642389415:S=ALNI_MZvp_Qela8P1YzLWel-FWxwDU9jLA; __cf_bm=SIVKgO1Ux9KNtNbkj_fjJYj3a1QovLuTGdmGp0epAM4-1642389419-0-AUSSkzc1XFgnf9zFhKsSkoz1E3ZcLjf2mMuaAmg8YOsZK/YnYVsGEFsXZV2cbwkfVWNzsCp3yMX3W7/C6Ny4VQWmXRqctCxB5IApjW5Tajoez2FFVJ/cjf2rL/xsnWZggQ=='
 });
 
 const sleep = (ms) => {
