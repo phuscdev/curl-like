@@ -1,8 +1,8 @@
-import request from './request.js';
-import { parse } from 'node-html-parser';
-import qs from 'qs';
+const request = require('./request');
+const { parse } = require('node-html-parser');
+const qs = require('qs');
 
-export default class {
+class machineLiker {
   /**
    * Url get data
    */
@@ -65,3 +65,5 @@ export default class {
     .catch(error => console.log(error))
   }
 }
+
+module.exports = { machineLiker }

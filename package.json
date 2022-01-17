@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Request URL: https://rpwliker.com/facebook/autoreaction\r Request Method: POST\r Status Code: 200 \r Remote Address: [2606:4700:3031::ac43:9684]:443\r Referrer Policy: strict-origin-when-cross-origin",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -1,6 +1,6 @@
-import axios from 'axios';
+const axios = require('axios');
 
-export default function(url, originalOptions) {
+function request(url, originalOptions) {
   const options = Object.assign({}, originalOptions);
 
   return axios({
@@ -14,3 +14,5 @@ export default function(url, originalOptions) {
     }
   )
 }
+
+module.exports = request;
